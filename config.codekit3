@@ -3123,10 +3123,10 @@
 
     ],
     "npmAbbreviatedPath" : "",
-    "npmCreatePackageLock" : 1,
+    "npmCreatePackageLock" : 0,
     "npmInstallOptionalDependencies" : 0,
     "npmSaveExactVersion" : 0,
-    "npmTargetDependencyListType" : 1,
+    "npmTargetDependencyListType" : 0,
     "overrideExternalServerCSS" : 0,
     "previewPathAddition" : "",
     "purgeCSS" : {

@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="dist/css/glightbox-min.css" />
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <script src="dist/js/masonry-min.js"></script>
         <script src="dist/js/yall-min.js"></script>
         <script>
             document.addEventListener("DOMContentLoaded", function() {
@@ -16,6 +17,12 @@
                     observeChanges: true,
                     threshold: 100
                 });
+            });
+        </script>
+        <script>
+            var msnry = new Masonry( '.grid', {
+                itemSelector: '.grid-item',
+                columnWidth: 250
             });
         </script>
     </head>
@@ -30,8 +37,8 @@
                 <img src="dist/gfx/cat_collection_large.jpg" alt="cats are not important">
             </picture>
         </header>
-        <main class="gallery" data-image-counter="">
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF5417.jpg">
+        <main class="gallery grid" data-image-counter="">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF5417.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF5417.jpg" alt="" title="" />
                 <div>
                     <h2>brown-eyed girl</h2>
@@ -39,7 +46,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF4621.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF4621.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF4621.jpg" alt="" title=""/>
                 <div>
                     <h2>wake up when independent</h2>
@@ -47,7 +54,7 @@
                 </div>
             </a>
             
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF9490.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF9490.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF9490.jpg" alt="" title=""/>
                 <div>
                     <h2>the bather</h2>
@@ -55,7 +62,7 @@
                 </div>
             </a>
             
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF0896.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF0896.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF0896.jpg" alt="" title=""/>
                 <div>
                     <h2>awaiting a return</h2>
@@ -63,7 +70,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF3041.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF3041.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF3041.jpg" alt="" title="" />
                 <div>
                     <h2>intimidation</h2>
@@ -71,7 +78,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF3108.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF3108.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF3108.jpg" alt="" title="" />
                 <div>
                     <h2>meet the parents</h2>
@@ -79,7 +86,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF3399.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF3399.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF3399.jpg" alt="" title="" />
                 <div>
                     <h2>race for life</h2>
@@ -87,7 +94,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF4118.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF4118.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF4118.jpg" alt="" title="" />
                 <div>
                     <h2>no longer friends</h2>
@@ -95,7 +102,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF4274.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF4274.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF4274.jpg" alt="" title="" />
                 <div>
                     <h2>vegetable anticipation</h2>
@@ -103,7 +110,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF4299.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF4299.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF4299.jpg" alt="" title="" />
                 <div>
                     <h2>no hiding place</h2>
@@ -111,7 +118,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF5526.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF5526.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF5526.jpg" alt="" title="" />
                 <div>
                     <h2>park life</h2>
@@ -119,7 +126,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF5097.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF5097.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF5097.jpg" alt="" title="" />
                 <div>
                     <h2>the comedy of dogs</h2>
@@ -127,7 +134,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF5666.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF5666.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF5666.jpg" alt="" title="" />
                 <div>
                     <h2>kickback</h2>
@@ -135,7 +142,7 @@
                 </div>
             </a>
             
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF5783.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF5783.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF5783.jpg" alt="" title="" />
                 <div>
                     <h2>captivating</h2>
@@ -143,7 +150,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/lcd_0437.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/lcd_0437.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/lcd_0437.jpg" alt="" title="" />
                 <div>
                     <h2>serenity</h2>
@@ -151,7 +158,7 @@
                 </div>
             </a>
             
-            <a class="thumbnail-trigger" href="dist/img/large/lcd_2440.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/lcd_2440.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/lcd_2440.jpg" alt="" title="" />
                 <div>
                     <h2>the old guard</h2>
@@ -159,7 +166,7 @@
                 </div>
             </a>
             
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF5925.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF5925.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF5925.jpg" alt="" title="" />
                 <div>
                     <h2>the new guard - defense</h2>
@@ -167,7 +174,7 @@
                 </div>
             </a>
             
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF5928.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF5928.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF5928.jpg" alt="" title="" />
                 <div>
                     <h2>the new guard - attack</h2>
@@ -176,7 +183,7 @@
             </a>
             
 
-            <a class="thumbnail-trigger" href="dist/img/large/lcd_0646.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/lcd_0646.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/lcd_0646.jpg" alt="" title="" />
                 <div>
                     <h2>night moves</h2>
@@ -184,7 +191,7 @@
                 </div>
             </a>
             
-            <a class="thumbnail-trigger" href="dist/img/large/lcd_0752.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/lcd_0752.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/lcd_0752.jpg" alt="" title="" />
                 <div>
                     <h2>come back soon</h2>
@@ -192,7 +199,7 @@
                 </div>
             </a>
             
-            <a class="thumbnail-trigger" href="dist/img/large/lcd_0781.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/lcd_0781.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/lcd_0781.jpg" alt="" title="" />
                 <div>
                     <h2>gimme shelter</h2>
@@ -200,7 +207,7 @@
                 </div>
             </a>
             
-            <a class="thumbnail-trigger" href="dist/img/large/lcd_1470.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/lcd_1470.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/lcd_1470.jpg" alt="" title="" />
                 <div>
                     <h2>distaste</h2>
@@ -208,7 +215,7 @@
                 </div>
             </a>
             
-            <a class="thumbnail-trigger" href="dist/img/large/lcd_2313.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/lcd_2313.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/lcd_2313.jpg" alt="" title="" />
                 <div>
                     <h2>shower head</h2>
@@ -216,7 +223,7 @@
                 </div>
             </a>
             
-            <a class="thumbnail-trigger" href="dist/img/large/lcd_2912.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/lcd_2912.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/lcd_2912.jpg" alt="" title="" />
                 <div>
                     <h2>(un)concerned</h2>
@@ -224,7 +231,7 @@
                 </div>
             </a>
             
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF9267.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF9267.jpg">
                 <img class="align-img-bottom lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF9267.jpg" alt="" title=""/>
                 <div>
                     <h2>when is fun coming ?</h2>
@@ -232,7 +239,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF8878.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF8878.jpg">
                 <img class="align-img-bottom lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF8878.jpg" alt="" title="" />
                 <div>
                     <h2>has fun stopped ?</h2>
@@ -240,7 +247,7 @@
                 </div>
             </a>
             
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF8689.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF8689.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF8689.jpg" alt="" title="" />
                 <div>
                     <h2>a-frame</h2>
@@ -248,7 +255,7 @@
                 </div>
             </a>
             
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF8571.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF8571.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF8571.jpg" alt="" title="" />
                 <div>
                     <h2>ghosts</h2>
@@ -256,7 +263,7 @@
                 </div>
             </a>
             
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF8445.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF8445.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF8445.jpg" alt="" title="" />
                 <div>
                     <h2>...dressed as wolf</h2>
@@ -264,7 +271,7 @@
                 </div>
             </a>
             
-            <a class="thumbnail-trigger" href="dist/img/large/weiner.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/weiner.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/weiner.jpg" alt="" title="" />
                 <div>
                     <h2>can we please go home</h2>
@@ -272,7 +279,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF6189.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF6189.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF6189.jpg" alt="" title="" />
                 <div>
                     <h2>this is not my beautiful home</h2>
@@ -280,7 +287,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF6185.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF6185.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF6185.jpg" alt="" title="" />
                 <div>
                     <h2>i'll take you there</h2>
@@ -288,7 +295,7 @@
                 </div>
             </a>
             
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF7059.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF7059.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF7059.jpg" alt="" title="" />
                 <div>
                     <h2>siesta for four</h2>
@@ -296,7 +303,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF7137.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF7137.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF7137.jpg" alt="" title="" />
                 <div>
                     <h2>dogsnobody</h2>
@@ -304,7 +311,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF7728.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF7728.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF7728.jpg" alt="" title="" />
                 <div>
                     <h2>radiant beauty</h2>
@@ -312,7 +319,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/lcd_1053.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/lcd_1053.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/lcd_1053.jpg" alt="" title="" />
                 <div>
                     <h2>delayed gratification</h2>
@@ -320,7 +327,7 @@
                 </div>
             </a>
 
-            <a class="thumbnail-trigger" href="dist/img/large/DSCF4575.jpg">
+            <a class="thumbnail-trigger grid-item" href="dist/img/large/DSCF4575.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF4575.jpg" alt="" title="" />
                 <div>
                     <h2>a friend in need...</h2>
@@ -329,7 +336,7 @@
             </a>
             
             <!-- the cat image has to be last and ideally full width and height -->
-            <a class="thumbnail-trigger last-image" href="dist/img/large/DSCF3710.jpg">
+            <a class="thumbnail-trigger grid-item last-image" href="dist/img/large/DSCF3710.jpg">
                 <img class="lazy" src="dist/gfx/placeholder.png" data-src="dist/img/small/DSCF3710.jpg" alt="" title="" />
                 <div>
                     <h2>blue-eyed boy</h2>
