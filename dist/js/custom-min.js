@@ -1,0 +1,1 @@
+var trigger=document.querySelector("header"),info=document.querySelector(".info"),imageCount=document.querySelectorAll(".thumbnail-trigger").length-1+" dogs + 1 cat";function toggleClass(){info.classList.toggle("show-info")}document.querySelector("header").setAttribute("data-image-counter",imageCount),trigger.addEventListener("click",toggleClass);
