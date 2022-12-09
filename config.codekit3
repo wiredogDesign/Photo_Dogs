@@ -13,7 +13,7 @@
       "aP" : 0,
       "bl" : 0,
       "ci" : 0,
-      "co" : 0,
+      "co" : 1,
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
@@ -32,6 +32,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/_assets\/masonry.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/_assets\/masonry-min.js",
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/.gitignore" : {
       "cB" : 0,
       "ft" : 8192,
@@ -40,12 +51,10 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
-    "\/.vscode\/New Photo.code-snippets" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/.vscode\/New Photo.code-snippets",
+    "\/.vscode" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/.vscode",
       "oF" : 0
     },
     "\/apple-touch-icon.png" : {
@@ -88,9 +97,9 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dist\/css\/glightbox-min-min.css",
-      "oF" : 0,
+      "oF" : 1,
       "pg" : 0
     },
     "\/dist\/fonts\/josey.woff2" : {
@@ -1371,9 +1380,20 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dist\/js\/glightbox-min-min.js",
-      "oF" : 0,
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dist\/js\/masonry-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dist\/js\/masonry-min-min.js",
+      "oF" : 1,
       "sC" : 3,
       "tS" : 0
     },
@@ -1382,9 +1402,9 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dist\/js\/yall-min-min.js",
-      "oF" : 0,
+      "oF" : 1,
       "sC" : 3,
       "tS" : 0
     },
@@ -1408,14 +1428,6 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
-    },
-    "\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/index.html",
-      "oF" : 0
     },
     "\/manifest.webmanifest" : {
       "cB" : 0,
@@ -3169,7 +3181,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
-    "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+    "skippedFoldersString" : "\/.vscode,\/storage\/framework\/sessions,node_modules,_logs,logs,log,.idea,_cache,cache",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
     "tsAllowSyntheticDefaultImports" : 0,
