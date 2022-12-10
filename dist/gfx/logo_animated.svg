@@ -81,11 +81,11 @@
 
         .eye {
             fill: none;
-            stroke: white 
+            stroke: #EA1515; 
         }
 
         .wiredog { 
-            fill:#EA1515 
+            fill: #EA1515 
         }
 
         .design {

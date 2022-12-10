@@ -39,6 +39,17 @@ header {
     position: relative;
 }
 
+header::before {
+	position: absolute;
+    bottom: 0.5em;
+	left: 0.5em;
+	width: 11vw;
+	height: 11vw;
+    content: '';
+	background: no-repeat center/100% url(/dist/gfx/logo_animated.svg);
+	border-radius: 50%;
+}
+
 header::after {
 	position: absolute;
 	bottom: 0.5em;
@@ -176,6 +187,10 @@ footer {
 
     .info {
         line-height: 1.35;
+    }
+
+    header::after {
+        font-size: 110%;
     }
 
 }
