@@ -42,7 +42,7 @@ header {
 header::after {
 	position: absolute;
 	bottom: 0.5em;
-	left: 0.5em;
+	right: 0.5em;
     content: attr(data-image-counter);
 	font-size: 130%;
 	color: var(--red);
@@ -173,6 +173,11 @@ footer {
         height: 20vh;
         border-radius: 2vw;
     }
+
+    .info {
+        line-height: 1.35;
+    }
+
 }
 
 @media screen and (max-width: 375px) and (orientation: portrait) {
