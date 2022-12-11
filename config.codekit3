@@ -125,54 +125,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/dist\/gfx\/cat_collection_large.webp" : {
-      "ft" : 8388608,
-      "iS" : 17722,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/cat_collection_large.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/dist\/gfx\/cat_collection_narrow_hairy_text.jpg" : {
-      "ft" : 16384,
-      "iS" : 17303,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/cat_collection_narrow_hairy_text.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/gfx\/cat_collection_narrow.jpg" : {
-      "ft" : 16384,
-      "iS" : 17100,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/cat_collection_narrow.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/gfx\/cat_collection_narrow.webp" : {
-      "ft" : 8388608,
-      "iS" : 7524,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/cat_collection_narrow.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
     "\/dist\/gfx\/logo_animated.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -182,19 +134,6 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
-    },
-    "\/dist\/gfx\/otis_glass_head.jpg" : {
-      "ft" : 16384,
-      "iS" : 48152,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/otis_glass_head.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
     },
     "\/dist\/gfx\/placeholder.png" : {
       "ft" : 32768,
