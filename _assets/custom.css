@@ -104,7 +104,7 @@ main {
     object-fit: cover;
     border-radius: inherit;
     filter: saturate(0);
-    transition: filter .2s linear;
+    /* transition: filter .2s linear; */
 }
 
 /* added individually to images */
@@ -112,22 +112,27 @@ main {
 	object-position: bottom;
 }
 
-.thumbnail-trigger img:hover {
-    filter: saturate(1);
-}
+/* .thumbnail-trigger img:hover {
+    filter: saturate(5);
+} */
 
 .thumbnail-trigger.last-image > img {
     object-position: bottom right;
 }
 
 .thumbnail-trigger div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: absolute;
-    bottom: -10rem;
+    bottom: -100%;
     width: 100%;
+    height: 100%;
     margin: -5px 0 1px;
     padding: 0.4em;
     background: var(--limpid);
-    transition: bottom 0.4s ease-in-out;
+    backdrop-filter: blur(4px);
+    transition: bottom 0.2s ease-in-out;
 }
 
 .thumbnail-trigger:hover div {
@@ -140,9 +145,7 @@ footer {
 	justify-content: center;
     align-items: center;
     height: 4.35rem;
-    /* margin-top: var(--margins); */
     overflow: hidden;
-	background: var(--grey-mid);
     color: var(--grey-dark);
 }
 
