@@ -131,6 +131,7 @@ main {
     margin: -5px 0 1px;
     padding: 0.4em;
     background: var(--limpid);
+    -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     transition: bottom 0.2s ease-in-out;
 }
