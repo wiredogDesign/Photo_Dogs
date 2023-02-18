@@ -1,11 +1,11 @@
-var trigger = document.querySelector('header');
+var header = document.querySelector('header');
 var catechism = document.querySelector('.catechism').textContent;
-var info = document.querySelector('.info');
+var headerInfo = document.querySelector('.header-info');
 var imageCount = document.querySelectorAll('.thumbnail-trigger').length-1 + " dogs + " + catechism;
 document.querySelector('header').setAttribute('data-image-counter', imageCount);
 //
-function toggleClass() {
-    info.classList.toggle('show-info');
+function toggleHeaderInfo() {
+    headerInfo.classList.toggle('show-info');
 }
-trigger.addEventListener('click', toggleClass)
+header.addEventListener('click', toggleHeaderInfo)
 
