@@ -9,11 +9,11 @@
     --margins:      0.8vw;
 }
 
-@keyframes turnhead {
+/* @keyframes turnhead {
     100% {
         transform: rotate(0);
     }
-}
+} */
 
 /* @font-face {
     font-family: "josey";
