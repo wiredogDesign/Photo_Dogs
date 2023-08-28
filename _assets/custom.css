@@ -104,7 +104,7 @@ a {
 }
 
 h2 {
-    font-size: 1.7em;
+    font-size: clamp(1.5rem, 5vw - 2rem, 2.3rem);
     font-weight: 400;
 	line-height: 1.4;
     -webkit-text-stroke-width: 1px;
@@ -126,6 +126,7 @@ main {
 .thumbnail-trigger {
     flex: 1 0 auto;
     position: relative;
+    min-width: 200px;
     max-width: 430px;
     height: 20.3vw;
     border-radius: .6vw;
@@ -134,7 +135,7 @@ main {
     color: inherit;
 }
 
-.thumbnail-trigger > img {
+.thumbnail-trigger img {
     /* needs min-width to work correctly with webkit */
     min-width: 100%;
     height: 100%;
@@ -153,7 +154,7 @@ main {
     filter: saturate(5);
 } */
 
-.thumbnail-trigger.last-image > img {
+.thumbnail-trigger.last-image img {
     object-position: bottom right;
 }
 
@@ -179,7 +180,7 @@ main {
 
 /* disables thumbnail info popup on hover */
 @media (hover: hover) and (pointer: fine) {
-    .thumbnail-trigger:hover > div {
+    .thumbnail-trigger:hover div {
         bottom: -1px;
     }
 } 
@@ -221,11 +222,11 @@ footer {
         max-width: 100%;
     }
 
-    .thumbnail-trigger.last-image > img {
+    .thumbnail-trigger.last-image img {
         object-position: bottom right;
     }
 
-    footer > h3 {
+    footer h3 {
         font-size: .8rem;
     }
 }
