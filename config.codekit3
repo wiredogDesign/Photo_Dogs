@@ -135,6 +135,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/dist\/gfx\/cat_collection_large.webp" : {
+      "ft" : 8388608,
+      "iS" : 64434,
+      "oA" : 0,
+      "oAP" : "\/dist\/gfx\/cat_collection_large.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/dist\/gfx\/logo_animated.svg" : {
       "ft" : 2097152,
       "miP" : 0,
