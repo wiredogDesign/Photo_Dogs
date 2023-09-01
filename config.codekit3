@@ -169,6 +169,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/dist\/gfx\/viktorIV.jpg" : {
+      "ft" : 16384,
+      "iS" : 10106,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/gfx\/viktorIV.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/dist\/img\/large\/DSCF0896.jpg" : {
       "ft" : 16384,
       "iS" : 120527,

@@ -96,6 +96,13 @@ aside span {
     vertical-align: bottom;
 }
 
+.viktor {
+	width: auto;
+	height: 13vw;
+	float: left;
+	padding-right: 9px;
+}
+
 .show-info {
     transform: translateY(0);
 }
