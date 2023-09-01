@@ -86,7 +86,10 @@ aside {
 }
 
 aside p {
+    margin: 1vw;
     padding: 1vw 3vw;
+    border: 1.5px dashed var(--grey-dark);
+    background: var(--shading);
 }
 
 aside span {
