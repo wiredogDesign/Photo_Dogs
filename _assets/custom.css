@@ -38,6 +38,7 @@ body {
 
 header {
     position: relative;
+    cursor: pointer;
 }
 
 /* header::before {
@@ -80,7 +81,7 @@ aside {
     -webkit-backdrop-filter: blur(22px);
     backdrop-filter: blur(22px);
     filter: drop-shadow(0px 0px 14px var(--shadow));
-    font-size: 1em;
+    font-size: clamp(1.1rem, 2cqi, 1.3vw);
     color: var(--red);
 }
 

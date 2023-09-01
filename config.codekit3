@@ -122,6 +122,30 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/dist\/gfx\/cat_collection_large_2.jpg" : {
+      "ft" : 16384,
+      "iS" : 63337,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/gfx\/cat_collection_large_2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/gfx\/cat_collection_large_2.webp" : {
+      "ft" : 8388608,
+      "iS" : 32128,
+      "oA" : 0,
+      "oAP" : "\/dist\/gfx\/cat_collection_large_2.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/dist\/gfx\/cat_collection_large.jpg" : {
       "ft" : 16384,
       "iS" : 40718,
