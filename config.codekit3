@@ -146,53 +146,6 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/dist\/gfx\/cat_collection_large.jpg" : {
-      "ft" : 16384,
-      "iS" : 40718,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/cat_collection_large.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/gfx\/cat_collection_large.webp" : {
-      "ft" : 8388608,
-      "iS" : 64434,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/cat_collection_large.webp",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/dist\/gfx\/logo_animated.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/gfx\/logo_animated.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/gfx\/placeholder.png" : {
-      "ft" : 32768,
-      "iS" : 6121,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/placeholder.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/dist\/gfx\/viktorIV.jpg" : {
       "ft" : 16384,
       "iS" : 10106,
@@ -1368,17 +1321,6 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dist\/js\/glightbox-min-min.js",
-      "oF" : 1,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dist\/js\/yall-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/dist\/js\/yall-min-min.js",
       "oF" : 1,
       "sC" : 3,
       "tS" : 0
