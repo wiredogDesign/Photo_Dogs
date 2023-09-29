@@ -1369,6 +1369,14 @@
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
+    },
+    "\/robots.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/robots.txt",
+      "oF" : 1
     }
   },
   "hooks" : [
