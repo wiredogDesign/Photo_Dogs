@@ -204,7 +204,7 @@ main {
 /* disables thumbnail info popup on hover */
 @media (hover: hover) and (pointer: fine) {
     .thumbnail-trigger:hover div {
-        bottom: -1px;
+        bottom: 0;
     }
 } 
 
