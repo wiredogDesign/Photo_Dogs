@@ -197,10 +197,8 @@ main {
     font-size: 2.35cqi;
     font-weight: 400;
     line-height: 1.4;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--red);
     text-shadow: 0 0 8px white;
-    color: transparent;
+    color: var(--red);
 }
 
 /* disables thumbnail info popup on hover */
