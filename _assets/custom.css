@@ -227,6 +227,7 @@ footer {
 
     .thumbnail-trigger { 
         height: 20vh;
+        min-width: none;
         border-radius: 2vw;
     }
 
